@@ -7,10 +7,10 @@ def pre():
             for line in f:
                 line.replace('\r','')
                 fo.write(line)
+pre()
 
 
-
-test_df = pd.read_csv('data/20190527_test.csv')
-train_df = pd.read_csv('data/train.csv')
-train_df = train_df.dropna()
-print(train_df.info())
+# test_df = pd.read_csv('data/20190527_test.csv')
+# train_df = pd.read_csv('data/train.csv')
+# train_df = train_df.dropna()
+# print(train_df.info())
